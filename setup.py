@@ -14,7 +14,7 @@ setup(
     # I explain this later on
     download_url='https://github.com/rshrc/pymmi/archive/v0.1.tar.gz',
     # Keywords that define your package best
-    keywords=['SOME', 'MEANINGFULL', 'KEYWORDS'],
+    keywords=['MapMyIndia', 'GeoLocation', 'Mapping', 'India'],
     install_requires=[            # I get to this in a second
         'validators',
         'beautifulsoup4',

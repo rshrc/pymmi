@@ -1,9 +1,7 @@
 from mmi import MapMyIndia
 
 print("Testing for MapMyIndia Python Class")
-testing = MapMyIndia()
-print("Testing for MapMyIndiaCustomLicense Python Class")
-testing = MapMyIndiaPythonCustomLicense("zmaxlrqmpxqgg9wu2z859ofcgz8zs5u5")
+testing = MapMyIndia("zmaxlrqmpxqgg9wu2z859ofcgz8zs5u5")
 print("MapMyIndiaPythonCustomLicense class initialized")
 print("Geocoding")
 print(testing.geocoding("Asansol", 713304).content)

@@ -6,13 +6,13 @@ setup(
     # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     license='MIT',
     # Give a short description about your library
-    description='TYPE YOUR DESCRIPTION HERE',
-    author='YOUR NAME',                   # Type in your name
-    author_email='your.email@domain.com',      # Type in your E-Mail
+    description='A Python Wrapper for the MapMyIndiaAPI',
+    author='Rishi Banerjee',                   # Type in your name
+    author_email='rishieric91@gmail.com',      # Type in your E-Mail
     # Provide either the link to your github or to your website
-    url='https://github.com/user/reponame',
+    url='https://github.com/rshrc/pymmi',
     # I explain this later on
-    download_url='https://github.com/user/reponame/archive/v_01.tar.gz',
+    download_url='https://github.com/rshrc/pymmi/archive/v0.1.tar.gz',
     # Keywords that define your package best
     keywords=['SOME', 'MEANINGFULL', 'KEYWORDS'],
     install_requires=[            # I get to this in a second
@@ -34,5 +34,6 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
     ],
 )
